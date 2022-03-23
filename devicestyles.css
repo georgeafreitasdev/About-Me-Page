@@ -1,0 +1,37 @@
+
+/*  ============================
+	Mobile Styles: 0px to 480px
+	============================
+*/
+
+@media only screen and (max-width: 480px) {	
+ .logo {
+	  display: none;
+  }
+
+  .navbarli {
+	  display: block;
+  }
+  .navbaritem:hover {
+	transition: all 0.3s ease 0s;
+	color: #ea8b54;
+	}
+
+
+@media only screen and (min-width: 481px) {
+	.logo {
+		display: none;
+	}
+      
+	.navbarli {
+		display: block;
+	}
+	.navbaritem:hover {
+	      transition: all 0.3s ease 0s;
+	      color: #ea8b54;
+	      }
+
+
+@media only screen and (min-width: 769px) {
+	
+}
